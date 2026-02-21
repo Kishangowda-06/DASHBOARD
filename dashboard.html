@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="dashboard">
+
+  <!-- Sidebar -->
+  <div class="sidebar">
+    <h2>MyApp</h2>
+    <ul>
+      <li class="active">Dashboard</li>
+      <li>Users</li>
+      <li>Reports</li>
+      <li>Settings</li>
+    </ul>
+  </div>
+
+  <!-- Main Content -->
+  <div class="main-content">
+
+    <!-- Top Bar -->
+    <div class="topbar">
+      <h1>Dashboard</h1>
+      <button onclick="logout()">Logout</button>
+    </div>
+
+    <!-- Cards -->
+    <div class="cards">
+      <div class="card">
+        <h3>Total Users</h3>
+        <p id="users">1200</p>
+      </div>
+
+      <div class="card">
+        <h3>Revenue</h3>
+        <p>$15,000</p>
+      </div>
+
+      <div class="card">
+        <h3>Orders</h3>
+        <p>320</p>
+      </div>
+    </div>
+
+    <!-- Chart Placeholder -->
+    <div class="chart">
+      <h3>Monthly Performance</h3>
+      <div class="chart-box">Chart Area</div>
+    </div>
+
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
